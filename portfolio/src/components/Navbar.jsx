@@ -3,7 +3,7 @@ import hamburger from "../assets/hamburger.svg"
 import close from "../assets/close.svg"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { RiContactsBook2Fill } from "react-icons/ri";
+import { SiCodewars } from "react-icons/si";
 
 export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
@@ -30,13 +30,13 @@ export default function Navbar() {
             </div>
             <div className="flex  sm:flex-row">
             <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0 text-blue-500" href=""><FaLinkedin /></a>
+                <a className="inline-block py-2 mx-3 text-lg sm:py-0 text-blue-500" href="https://www.linkedin.com/in/steve-mafoa-07a513179/"><FaLinkedin /></a>
             </li>
             <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href=""><FaGithub /></a>
+                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="https://github.com/MafoaSteve9"><FaGithub /></a>
             </li>
             <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href=""><RiContactsBook2Fill /></a>
+                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href=""><SiCodewars /></a>
             </li>
             </div>
         </ul>
