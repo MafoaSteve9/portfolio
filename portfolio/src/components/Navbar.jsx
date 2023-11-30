@@ -9,27 +9,27 @@ export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <nav className="fixed top-0 w-full flex justify-center p-4 bg-black text-slate-200">
-        <ul className={`${showMenu ? "flex" : "hidden"} flex-col items-center w-full absolute top-full pb-5 sm:flex sm:relative sm:flex-row sm:pb-0 gap-10 sm:justify-between`}>
+    <nav className="w-full flex justify-center p-4 text-slate-200 bg-black">
+        <ul className={`${showMenu ? "flex" : "hidden"}  bg-black flex-col items-center w-full absolute sm:top-full top-8 pb-5 sm:flex sm:relative sm:flex-row sm:pb-0 gap-10 sm:justify-between`}>
        <div>
        <h1 className="italic font-semibold text-lg">Steve Mafoa</h1>
        </div>
             <div className="flex  sm:flex-row ">
-            <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="">Projets</a>
+            <li className=" text-slate-50">
+                <a className="inline-block py-2 mx-3  sm:py-0" href="">Projets</a>
             </li>
-            <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="">Moi</a>
+            <li className=" text-slate-50">
+                <a className="inline-block py-2 mx-3 sm:py-0" href="">Moi</a>
             </li>
-            <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="">Parcours</a>
+            <li className=" text-slate-50">
+                <a className="inline-block py-2 mx-3 sm:py-0" href="">Parcours</a>
             </li>
-            <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="">Contact</a>
+            <li className=" text-slate-50">
+                <a className="inline-block py-2 mx-3 sm:py-0" href="">Contact</a>
             </li>
             </div>
-            <div className="flex  sm:flex-row">
-            <li className="font-semibold text-slate-50">
+            <div className="flex sm:flex-row">
+            <li className=" text-slate-50">
                 <a className="inline-block py-2 mx-3 text-lg sm:py-0 text-blue-500" href="https://www.linkedin.com/in/steve-mafoa-07a513179/"><FaLinkedin /></a>
             </li>
             <li className="font-semibold text-slate-50">
@@ -42,7 +42,7 @@ export default function Navbar() {
         </ul>
         <button
         onClick={() => setShowMenu(!showMenu)}
-        className="ml-auto sm:hidden">
+        className="ml-auto sm:hidden bg-slate-300">
             <img 
             className="w-4"
             src={showMenu ? close : hamburger} alt={showMenu ?  "Cacher le menu": "Montrer le menu"} />
