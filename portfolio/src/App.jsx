@@ -1,9 +1,12 @@
+import Navbar from './components/Navbar'
+import Presentation from './components/Presentation'
 import './App.css'
 
 function App() {
   return (
     <div>
-     <h1>Hello World</h1>
+     <Navbar />
+     <Presentation />
     </div>
   )
 }
