@@ -9,8 +9,8 @@ export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <nav className="w-full flex justify-center p-4 text-slate-200 bg-black">
-        <ul className={`${showMenu ? "flex" : "hidden"}  bg-black flex-col items-center w-full absolute sm:top-full top-8 pb-5 sm:flex sm:relative sm:flex-row sm:pb-0 gap-10 sm:justify-between`}>
+    <nav className="w-full flex justify-center p-4 text-slate-200 bg-[#1f2225]">
+        <ul className={`${showMenu ? "flex" : "hidden"}  bg-[#1f2225] flex-col items-center w-full absolute sm:top-full top-8 pb-5 sm:flex sm:relative sm:flex-row sm:pb-0 gap-10 sm:justify-between`}>
        <div>
        <h1 className="italic font-semibold text-lg">Steve Mafoa</h1>
        </div>
