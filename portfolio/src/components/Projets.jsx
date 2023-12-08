@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react"
-import parimis from "../assets/parimis.PNG"
-import boxy from "../assets/boxyGenerator.PNG"
-import porsche from "../assets/porsche.PNG"
+import parimis from "../assets/parimis.png"
+import boxy from "../assets/boxyGenerator.png"
+import porsche from "../assets/porsche.png"
 import trello from "../assets/trelloBg.png"
 import "../App.css"
 
