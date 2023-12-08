@@ -45,7 +45,7 @@ export default function Presentation() {
           {showModal && createPortal(<ModalContent closeModal={() => setShowModal(false)}/>, document.body)}
 
        </div>
-       <div className="max-w-xl min-h-[250px] mx-auto sm:w-1/2 sm:h-[720px] rounded-m  shadow-slate-600 shadow-md rounded-md bg-slate-100 mb-28 mt-14">
+       <div className="max-w-xl min-h-[250px] mx-auto sm:w-1/2 sm:h-[720px] rounded-m  shadow-slate-600 shadow-md rounded-md bg-slate-100 mb-28 sm:mt-14">
         <div className="flex justify-center relative top-4">
           {tabsData.map((obj, index) => (
             <button
