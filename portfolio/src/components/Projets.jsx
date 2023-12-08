@@ -9,19 +9,24 @@ export default function Projets() {
     const data = [
         {
             photo: boxy,
-            projet: "Boxy Generator"
+            projet: "Boxy Generator",
+            url: "https://github.com/MafoaSteve9/BoxyGenerator/tree/main/Boxy-project"
         },
         {
             photo: trello ,
-            projet: "Clone de Trello"
+            projet: "Clone de Trello",
+            url: "https://github.com/MafoaSteve9/Trello-Clone/tree/main/Trello%20clone"
         },
         {
             photo: porsche,
-            projet: "Site de voiture Porsche"
+            projet: "Site de voiture Porsche",
+            url: "https://porsche-ms.vercel.app/"
         },
         {
             photo: parimis,
-            projet: "Hotel Parimis"
+            projet: "Hotel Parimis",
+            url: "https://github.com/MafoaSteve9?tab=repositories"
+
         }
     ]
 
@@ -46,12 +51,12 @@ export default function Projets() {
 
   return (
     <section  ref={effectRef} className="newsletter">
-        <h1 className="text-center uppercase font-bold text-lg">mes projets</h1>
+        <h1 className="text-center uppercase font-bold text-lg" id="mesProjets"><a href="#Projets">mes projets</a></h1>
         <div className="flex flex-wrap items-center mt-3 justify-center text-center flex-col sm:flex-row">
             {data.map(infos => (
                 <div className=" w-full sm:w-1/2 p-8">
-                    <button className="sm:relative sm:top-60 relative top-44 py-3 px-10 cursor-pointer text-sm rounded bg-[#65749280] text-white hover:bg-blue-700 opacity-75 font-semibold">{infos.projet}</button>
-                    <img className=" bg-slate-500 shadow-2xl shadow-slate-400 rounded-lg" src={infos.photo} alt="" />
+                    <a href={infos.url} target="_blank" className="sm:relative sm:top-60 relative top-44 py-3 px-10 cursor-pointer text-sm rounded bg-[#65749280] text-white hover:bg-blue-700 opacity-75 font-semibold">{infos.projet}</a>
+                    <img className=" bg-slate-500 shadow-2xl shadow-slate-400 rounded-lg" src={infos.photo} alt="Photos de mes différents projets" />
                 </div>
             ))}
             
