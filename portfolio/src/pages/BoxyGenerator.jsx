@@ -19,8 +19,8 @@ const data = [
 export default function BoxyGenerator() {
   return (
     <section>
-    <div className="flex justify-center p-10">
-    <p className="p-10 text-justify  w-[900px] bg-orange-50 rounded-lg text-[#666666] leading-8 shadow-2xl shadow-slate-400" >
+    <div className="flex justify-center p-6">
+    <p className="p-4 text-justify  w-[900px] bg-orange-50 rounded-lg text-[#666666] leading-8 shadow-2xl shadow-slate-400" >
     <h1 className="text-center uppercase font-bold text-lg p-4 text-black">Boxy Generator</h1>
     BoxyGenerator est un petit projet passionnant que j'ai développé en utilisant les technologies modernes telles que React.js, Tailwind CSS, et Redux. Ce générateur de boîtes offre une expérience interactive permettant aux utilisateurs de créer des boîtes personnalisées avec des couleurs vives et des ombres captivantes.
 L'application tire parti de la puissance de React.js pour créer une interface utilisateur réactive et dynamique. Grâce à Tailwind CSS, le design est élégant et la mise en page est fluide, offrant une expérience utilisateur optimale.
