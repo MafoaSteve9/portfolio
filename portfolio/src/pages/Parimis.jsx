@@ -19,8 +19,8 @@ const data = [
 export default function () {
   return (
     <section>
-        <div className="flex justify-center p-10">
-        <p className="p-10 text-justify  w-[900px] bg-orange-50 rounded-lg text-[#666666] leading-8 shadow-2xl shadow-slate-400" >
+        <div className="flex justify-center p-6">
+        <p className="p-4 text-justify  w-[900px] bg-orange-50 rounded-lg text-[#666666] leading-8 shadow-2xl shadow-slate-400" >
         <h1 className="text-center uppercase font-bold text-lg p-4 text-black">Projet Hotel - Parimis</h1>
         Durant ma formation précédente, j'ai eu l'occasion de concevoir un site web d'hôtel en utilisant les technologies fondamentales du web : HTML, CSS, et un soupçon de JavaScript pour une interactivité accrue. Ce projet visait à créer une expérience utilisateur fluide et responsive.
         Fort de cette expérience, je planifie actuellement une refonte complète du projet en utilisant des technologies plus avancées telles que React.js pour la création d'interfaces utilisateur dynamiques et Tailwind CSS pour des styles flexibles et réutilisables. L'intégration de Node.js permettra d'ajouter des fonctionnalités avancées, telles que des réservations en ligne et un système de gestion de contenu, élevant ainsi le site à un niveau supérieur.
