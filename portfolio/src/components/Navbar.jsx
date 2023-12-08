@@ -9,34 +9,31 @@ export default function Navbar() {
     const [showMenu, setShowMenu] = useState(false)
 
   return (
-    <nav className="w-full flex justify-center p-4 text-slate-200 bg-[#1f2225]">
+    <nav className="fixed z-50 w-full flex justify-center p-4 text-slate-300 bg-[#1f2225]">
         <ul className={`${showMenu ? "flex" : "hidden"}  bg-[#1f2225] flex-col items-center w-full absolute sm:top-full top-8 pb-5 sm:flex sm:relative sm:flex-row sm:pb-0 gap-10 sm:justify-between`}>
        <div>
        <h1 className="italic font-semibold text-lg">Steve Mafoa</h1>
        </div>
             <div className="flex  sm:flex-row ">
-            <li className=" text-slate-50">
-                <a className="inline-block py-2 mx-3  sm:py-0" href="">Projets</a>
+            <li className=" ">
+                <a className="inline-block py-2 mx-3  sm:py-0" href="#">Acceuil</a>
             </li>
-            <li className=" text-slate-50">
-                <a className="inline-block py-2 mx-3 sm:py-0" href="">Moi</a>
+            <li className=" ">
+                <a className="inline-block py-2 mx-3  sm:py-0" href="#mesProjets" id="Projets">Projets</a>
             </li>
-            <li className=" text-slate-50">
-                <a className="inline-block py-2 mx-3 sm:py-0" href="">Parcours</a>
-            </li>
-            <li className=" text-slate-50">
-                <a className="inline-block py-2 mx-3 sm:py-0" href="">Contact</a>
+            <li className=" ">
+                <a className="inline-block py-2 mx-3 sm:py-0" href="/CV-Steve-full-stack.pdf" download>Mon CV</a>
             </li>
             </div>
             <div className="flex sm:flex-row">
-            <li className=" text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0 text-blue-500" href="https://www.linkedin.com/in/steve-mafoa-07a513179/"><FaLinkedin /></a>
+            <li className=" ">
+                <a className="inline-block py-2 mx-3 text-lg sm:py-0 text-blue-500" href="https://www.linkedin.com/in/steve-mafoa-07a513179/"target="_blank"><FaLinkedin /></a>
             </li>
-            <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="https://github.com/MafoaSteve9"><FaGithub /></a>
+            <li className="font-semibold ">
+                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="https://github.com/MafoaSteve9"target="_blank"><FaGithub /></a>
             </li>
-            <li className="font-semibold text-slate-50">
-                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href=""><SiCodewars /></a>
+            <li className="font-semibold ">
+                <a className="inline-block py-2 mx-3 text-lg sm:py-0" href="https://www.codewars.com/users/SteveM94"target="_blank"><SiCodewars /></a>
             </li>
             </div>
         </ul>
