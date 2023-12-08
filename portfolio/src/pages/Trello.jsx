@@ -24,7 +24,7 @@ const data = [
 export default function Trello() {
   return (
     <section>
-    <div className="flex justify-center p-10">
+    <div className="flex justify-center p-6">
     <p className="p-10 text-justify  w-[900px] bg-orange-50 rounded-lg text-[#666666] leading-8 shadow-2xl shadow-slate-400" >
     <h1 className="text-center uppercase font-bold text-lg p-4 text-black">Clone Trello</h1>
     Découvrez mon projet : une réplique simplifiée de l'application Trello, entièrement conçue avec HTML, CSS et TypeScript. Ce clone offre une interface conviviale pour la gestion visuelle des tâches, inspirée de la simplicité de Trello. Organisez, suivez et priorisez vos tâches avec des tableaux intuitifs. Bien que ce projet ne soit pas accessible via un lien externe, vous pouvez le cloner depuis le dépôt GitHub associé pour explorer son code source et l'exécuter localement sur votre machine.
