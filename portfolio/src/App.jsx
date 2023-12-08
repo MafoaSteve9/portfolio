@@ -9,6 +9,8 @@ import BoxyGenerator from './pages/BoxyGenerator'
 import Porsche from './pages/Porsche'
 import Trello from './pages/Trello'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Stack from './components/Stack'
 
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
      <BrowserRouter>
      <Navbar />
      <Presentation />
+     <Stack />
      <Projets />
      <MesProjets />
 
@@ -32,6 +35,7 @@ function App() {
      </Routes>
 
      </BrowserRouter>
+     <Contact />
      <Footer />
 
     </>
