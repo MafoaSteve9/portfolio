@@ -89,7 +89,7 @@ export default function Presentation() {
             <p className="font-semibold">Les stacks que j'apprends : </p>
           <div className="flex flex-wrap items-center mt-3  justify-around shadow-slate-600 shadow-md rounded-md p-4">
                 {img.map(techno => (
-                    <img className="p-1 w-16 " src={techno.technos} alt="" />
+                    <img className="p-1 w-16 " src={techno.technos} alt="Photo de stack que j'apprends" />
                 ))}
 
             </div>
@@ -97,7 +97,7 @@ export default function Presentation() {
 
        </div>
        <div className="max-w-xl min-h-[250px] mx-auto sm:w-1/2 sm:h-[720px] rounded-m  shadow-slate-600 shadow-md rounded-md bg-slate-100 mb-28">
-        <div className="flex justify-center">
+        <div className="flex justify-center relative top-4">
           {tabsData.map((obj, index) => (
             <button
             className=" m-4 w-[30px] h-[30px] bg-slate-400 hover:bg-slate-300 rounded-[50%] "
@@ -109,7 +109,7 @@ export default function Presentation() {
         <div className="p-4">
           <img 
           className="p-4 sm:h-[600px] w-full sm:object-cover"
-          src={tabsData[selectedTab].photo} alt="" />
+          src={tabsData[selectedTab].photo} alt="Photod de moi" />
           <p className="text-center text-slate-400 font-semibold">{tabsData[selectedTab].infos}</p>
         </div>
        </div>
