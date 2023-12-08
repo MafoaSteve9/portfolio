@@ -8,6 +8,7 @@ import Parimis from './pages/Parimis'
 import BoxyGenerator from './pages/BoxyGenerator'
 import Porsche from './pages/Porsche'
 import Trello from './pages/Trello'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
      </Routes>
 
      </BrowserRouter>
+     <Footer />
 
     </>
   )
