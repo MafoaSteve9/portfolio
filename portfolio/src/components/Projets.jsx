@@ -53,7 +53,8 @@ export default function Projets() {
     <section  ref={effectRef} className="newsletter">
         <h1 className="text-center uppercase font-bold text-lg text-[20px] sm:text-[30px]" id="mesProjets"><a href="#Projets">mes projets</a></h1>
         <div className="flex flex-wrap items-center mt-3 justify-center text-center flex-col sm:flex-row">
-            {data.map(infos => (
+            {data.length > 0 &&
+            data.map(infos => (
                 <div className=" w-full sm:w-1/2 p-8">
                     <a href={infos.url} target="_blank" className="sm:relative sm:top-60 relative top-24 text-[12px] py-3 px-10 cursor-pointer text-sm rounded bg-[#65749280] text-white hover:bg-blue-700 opacity-75 font-semibold">{infos.projet}</a>
                     <img className=" bg-slate-500 shadow-2xl shadow-slate-400 rounded-lg" src={infos.photo} alt="Photos de mes différents projets" />
