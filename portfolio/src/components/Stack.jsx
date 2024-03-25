@@ -2,7 +2,7 @@ import reactJs from "../assets/react-logo.png"
 import nodeJs from "../assets/nodejs.png"
 import php from "../assets/php.png"
 import git from "../assets/git.png"
-import tailwind from "../assets/tailwind.png"
+import angular from "../assets/angular-logo.png"
 import expressJs from "../assets/Expressjs.png"
 import mysql from "../assets/mysql.png"
 import mongodb from "../assets/mongodb.png"
@@ -26,7 +26,7 @@ const img = [
     },
     {
       id: 5,
-      technos: tailwind,
+      technos: angular,
     },
     {
       id: 6,

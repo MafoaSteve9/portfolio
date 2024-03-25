@@ -9,9 +9,9 @@ export default function MesProjets() {
        <p className="mb-10 text-[16px]">Ici, vous pourrez explorer de manière plus approfondie certains des projets que j'ai conçus</p>
        <nav className="flex flex-wrap justify-center">
            <Link 
-           to="/pages/parimis"
+           to="/pages/divertissement"
            className="mx-2 font-semibold text-lg"
-           >Hotel - Parimis</Link>
+           >App de divertissement</Link>
            <Link 
            to="/pages/boxygenerator"
            className="mx-2 font-semibold text-lg"

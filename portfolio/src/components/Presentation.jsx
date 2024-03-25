@@ -14,7 +14,7 @@ const tabsData = [
   },
   {
     photo: boat,
-    infos: "???"
+    infos: "🐶"
   },
   {
     photo: home,

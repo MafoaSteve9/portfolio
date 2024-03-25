@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react"
-import parimis from "../assets/parimis.png"
+import appDivertissement from "../assets/app-divetissement.jpg"
 import boxy from "../assets/boxyGenerator.png"
 import porsche from "../assets/porsche.png"
 import trello from "../assets/trelloBg.png"
@@ -23,9 +23,9 @@ export default function Projets() {
             url: "https://porsche-ms.vercel.app/"
         },
         {
-            photo: parimis,
-            projet: "Hotel Parimis",
-            url: "https://github.com/MafoaSteve9?tab=repositories"
+            photo: appDivertissement,
+            projet: "App de divertissement",
+            url: "https://app-de-divertissement-sm.vercel.app/"
 
         }
     ]
