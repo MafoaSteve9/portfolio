@@ -7,7 +7,7 @@ import MesProjets from './pages/MesProjets'
 import BoxyGenerator from './pages/BoxyGenerator'
 import Porsche from './pages/Porsche'
 import AppDivertissement from './pages/app-divertissement'
-import Trello from './pages/Trello'
+import CreditCard from './pages/CreditCard'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Stack from './components/Stack'
@@ -30,7 +30,7 @@ function App() {
             <Route path="/pages/divertissement" element={<AppDivertissement />} />
             <Route path="/pages/boxygenerator" element={<BoxyGenerator />} />
             <Route path="/pages/porsche" element={<Porsche />} />
-            <Route path="/pages/trello" element={<Trello />} />
+            <Route path="/pages/creditcard" element={<CreditCard/>} />
          
      </Routes>
 
