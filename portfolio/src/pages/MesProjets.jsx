@@ -23,7 +23,7 @@ export default function MesProjets() {
            <Link 
            to="/pages/trello"
            className="mx-2 font-semibold text-lg"
-           >Clone Trello</Link>
+           >Project-Angular-CC</Link>
        </nav>
        <Outlet />
    </div>
