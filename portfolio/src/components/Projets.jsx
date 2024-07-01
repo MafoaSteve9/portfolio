@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react"
 import appDivertissement from "../assets/app-divetissement.jpg"
 import boxy from "../assets/boxyGenerator.png"
 import porsche from "../assets/porsche.png"
-import trello from "../assets/trelloBg.png"
+import creditCard from "../assets/credit-card.jpeg"
 import "../App.css"
 
 export default function Projets() {
@@ -13,9 +13,9 @@ export default function Projets() {
             url: "https://github.com/MafoaSteve9/BoxyGenerator/tree/main/Boxy-project"
         },
         {
-            photo: trello ,
-            projet: "Clone de Trello",
-            url: "https://github.com/MafoaSteve9/Trello-Clone/tree/main/Trello%20clone"
+            photo: creditCard ,
+            projet: "Project-Angular-CC",
+            url: "https://project-angular-cc.vercel.app/"
         },
         {
             photo: porsche,
