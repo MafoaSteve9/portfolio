@@ -20,10 +20,6 @@ export default function MesProjets() {
            to="/pages/porsche"
            className="mx-2 font-semibold text-lg"
            >Site Porsche</Link>
-           <Link 
-           to="/pages/trello"
-           className="mx-2 font-semibold text-lg"
-           >Project-Angular-CC</Link>
        </nav>
        <Outlet />
    </div>
