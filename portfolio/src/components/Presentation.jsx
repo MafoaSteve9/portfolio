@@ -10,7 +10,7 @@ import Contact from "./Contact"
 const tabsData = [
   {
     photo: steve,
-    infos: "A l'école"
+    infos: "Avec Micky le codeur fou !"
   },
   {
     photo: boat,
