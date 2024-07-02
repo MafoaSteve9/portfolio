@@ -30,6 +30,7 @@ function App() {
             <Route path="/pages/divertissement" element={<AppDivertissement />} />
             <Route path="/pages/boxygenerator" element={<BoxyGenerator />} />
             <Route path="/pages/porsche" element={<Porsche />} />
+            <Route path="/pages/learn-angular" element={<CreditCard />} />
          
      </Routes>
 
