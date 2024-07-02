@@ -23,7 +23,7 @@ export default function Trello() {
     <h1 className="text-center uppercase font-bold text-lg p-4 text-black">Learn Angular 🌍</h1>
     <div className="text-center font-bold">
         {data.map(infos => (
-            <p><a href={infos.url}>{infos.name}</a></p>
+            <p><a href={infos.url} target="_blank">{infos.name}</a></p>
         ) )}
     </div>
     
