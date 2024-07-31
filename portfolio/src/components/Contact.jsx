@@ -3,7 +3,6 @@ import { createPortal } from "react-dom"
 import ModalContent from "./ModalContent"
 
 export default function Contact() {
-    const [selectedTab, setSelectedTab] = useState(0)
     const [showModal, setShowModal] = useState(false)
 
   return (
