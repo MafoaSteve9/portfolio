@@ -22,7 +22,7 @@ export default function Navbar() {
                 <a className="inline-block py-2 mx-3  sm:py-0" href="#mesProjets" id="Projets">Projets</a>
             </li>
             <li className=" ">
-                <a className="inline-block py-2 mx-3 sm:py-0" href="/CV-steve-alternance2024.pdf" download>Mon CV</a>
+                <a className="inline-block py-2 mx-3 sm:py-0" href="/cv-alternance-septembre2024.pdf" download>Mon CV</a>
             </li>
             </div>
             <div className="flex sm:flex-row">
